@@ -26,6 +26,6 @@ public class HealthCheckTest {
         this.mockMvc.perform(get("/health"))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(content().string(containsString("it works")));
+                .andExpect(content().string(containsString("it works!!!")));
     }
 }

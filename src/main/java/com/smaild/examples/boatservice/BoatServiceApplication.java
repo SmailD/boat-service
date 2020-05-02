@@ -11,7 +11,7 @@ public class BoatServiceApplication {
 
 	@GetMapping("/health")
 	public String health() {
-		return "it works";
+		return "it works!!!";
 	}
 
 	public static void main(String[] args) {
